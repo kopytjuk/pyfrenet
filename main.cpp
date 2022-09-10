@@ -2,6 +2,7 @@
 #include <math.h>
 
 #include "line_path.h"
+#include "concatenated_path.h"
 
 template<typename T>
 T rad2deg(T angle)

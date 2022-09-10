@@ -8,7 +8,7 @@
 #ifndef LINEPATH_H
 #define LINEPATH_H
 
-class LinePath : BasePath{
+class LinePath : public BasePath {
 
     private:
         std::pair<double, double> pt_start;

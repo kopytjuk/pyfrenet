@@ -8,5 +8,5 @@ First setup `pyenv`, then
 
 ```
 PYTHON_INCLUDE_PATH=/root/.pyenv/versions/3.9.13/include/python3.9
-c++ -O3 -Wall -shared -std=c++11 -fPIC -I extern/pybind11/include example.cpp -I $PYTHON_INCLUDE_PATH -I ./include -o example$(python-config --extension-suffix)
+c++ -O3 -Wall -shared -std=c++11 -fPIC -I extern/pybind11/include pyfrenet.cpp -I $PYTHON_INCLUDE_PATH -I ./include -o pyfrenet$(python-config --extension-suffix)
 ```

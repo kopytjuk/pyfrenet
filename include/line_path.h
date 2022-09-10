@@ -5,6 +5,9 @@
 #include<numeric>
 #include<vector>
 
+#ifndef LINEPATH_H
+#define LINEPATH_H
+
 class LinePath : BasePath{
 
     private:
@@ -89,3 +92,5 @@ class LinePath : BasePath{
             return angle;
         }
 };
+
+#endif
